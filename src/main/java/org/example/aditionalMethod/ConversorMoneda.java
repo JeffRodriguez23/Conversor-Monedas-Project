@@ -8,7 +8,7 @@ import java.net.http.HttpResponse;
 
 public abstract class ConversorMoneda extends CreateHttpRequest{
 
-    private static final String APIKEY = "f3a87325f9c83479e5f6734e";
+    private static final String APIKEY = "";//Write your API KEY FOR USE
     private static final String URLBASE = "https://v6.exchangerate-api.com/v6/";
 
     protected abstract String codigoBase();
